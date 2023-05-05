@@ -5,10 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Social</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <style> /*Coloque o link:css ao finalizar*/
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    html body{
+        height: 100vh;
+        width: 100vw;
+        background-color: black;
+    }
+    body{
+        background-image: url('imagens/fundo-madeira.jpg');
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    main {
+        height: 100vh;
+        position: relative;
+    }
+    section#telefone {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        height: 627px;
+        width: 311px;
+        background-image: url('imagens/frame-iphone.png');
+        background-repeat: no-repeat;
+    }
+    #iframetela{
+        width: 265px;
+        height: 469px;
+    }
+    #divtela{
+        position: relative;
+        top: 81px;
+        left: 23px;
+    }
+    </style>
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
+    <main>
+        <section id="telefone">
+            <div id="divtela">
+                <iframe src="tela-inicial.html" frameborder="0" id="iframetela"></iframe>
+            </div>
+        </section>
+        <section id="redes-sociais">
+
+        </section>
+    </main>
 </body>
 </html>
