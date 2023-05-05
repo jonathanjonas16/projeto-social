@@ -18,6 +18,7 @@
         background-color: black;
     }
     body{
+        overflow: hidden;
         background-image: url('imagens/fundo-madeira.jpg');
         background-repeat: no-repeat;
         background-position: top center;
@@ -55,6 +56,9 @@
         box-shadow: 2px 2px 5px rgba(0,0,0,0.400);
         box-sizing: border-box;
     }
+    #redes-sociais{
+        text-align: right;
+    }
     section#redes-sociais img:hover{
         border: 2px solid rgba(255, 255, 255, 0.603);
     }
@@ -64,18 +68,18 @@
     <main>
         <section id="telefone">
             <div id="divtela">
-                <iframe src="tela-inicial.html" frameborder="0" id="iframetela">
+                <iframe src="tela-inicial.html" frameborder="0" id="iframetela" name="iframetela">
                     SEU NAVEGADOR É UM LIXO, POR FAVOR INSTALE OUTRO OU ABRA O SITE EM OUTRO DISPOSITIVO
                 </iframe>
             </div>
         </section>
         <section id="redes-sociais">
-            <a href="#" target='iframtela'><img src="imagens/logo-home.jpg" alt=""></a>
-            <a href="#" target='iframtela'><img src="imagens/logo-youtube.jpg" alt=""></a>
-            <a href="#" target='iframtela'><img src="imagens/logo-github.jpg" alt=""></a>
-            <a href="#" target='iframtela'><img src="imagens/logo-instagram.jpg" alt=""></a>
-            <a href="#" target='iframtela'><img src="imagens/logo-twitter.jpg" alt=""></a>
-            <a href="#" target='iframtela'><img src="imagens/logo-facebook.jpg" alt=""></a>
+            <a href="#" target='iframetela'><img src="imagens/logo-home.jpg" alt=""></a><br>
+            <a href="youtube.html" target='iframetela'><img src="imagens/logo-youtube.jpg" alt=""></a><br>
+            <a href="github.html" target='iframetela'><img src="imagens/logo-github.jpg" alt=""></a><br>
+            <a href="instagram.html" target='iframetela'><img src="imagens/logo-instagram.jpg" alt=""></a><br>
+            <a href="twitter.html" target='iframetela'><img src="imagens/logo-twitter.jpg" alt=""></a><br>
+            <a href="facebook.html" target='iframetela'><img src="imagens/logo-facebook.jpg" alt=""></a><br>
         </section>
     </main>
 </body>
